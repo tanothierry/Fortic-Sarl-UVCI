@@ -1127,7 +1127,7 @@ select:visited {
   .features-icon-text .features-text p {
     font-weight: 300;
     font-size: 14px; }
-  .features-icon-text .features-hover-content {
+  /* .features-icon-text .features-hover-content {
     top: 0;
     z-index: 2;
     width: 100%;
@@ -1149,7 +1149,7 @@ select:visited {
       top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      transform: translateY(-50%); } */
       .features-icon-text .features-hover-content .fh-icon-bg svg {
         height: 205px;
         fill: #0ebbca; }
@@ -3028,6 +3028,62 @@ select:visited {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     border: none; }
+
+
+
+
+/* ************************************************************/
+
+.second-slider{
+  height: 280px;
+  background-color: #005a90;
+  width: 100%;
+}
+
+
+.formulaire{
+  margin: 100px 0 150px;
+}
+
+.card-formulaire{
+  width: 58%;
+  margin: 0 auto;
+  min-height: 300px;
+}
+
+.card-formulaire_title{
+  margin-bottom: 60px;
+}
+
+.card-formulaire_title h2{
+  color: #0071b4;
+  font-weight: bold;
+}
+
+.card-formulaire_title h4{
+  font-size: 17px;
+}
+
+label{
+
+  font-weight: 600;
+}
+
+.btn-color{
+  border-radius: 0;
+  background-color: rgb(177, 12, 12);
+  border: 0;
+  float: right;
+}
+
+.btn-color:hover{
+  border-radius: 0;
+  background-color: rgb(177, 12, 12);
+  border: 0;
+}
+
+
+/* ************************************************************/
 
 /*---------------------------------------------------- */
 /*footer area*/
