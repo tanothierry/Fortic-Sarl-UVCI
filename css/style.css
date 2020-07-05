@@ -540,7 +540,7 @@ select:visited {
     margin-right: 98px; }
   .site-main-menu .navbar-nav {
     display: inline-block;
-    padding-top: 15px; }
+    padding-top: 12px; }
   .site-main-menu .main_navigation {
     display: inline-block; }
     .site-main-menu .main_navigation li {
@@ -1034,6 +1034,21 @@ select:visited {
 /*---------------------------------------------------- */
 /*About area*/
 /*----------------------------------------------------*/
+
+.about-illustration{
+  height: 300px;
+  background-color: #004168;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.about-illustration img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
 .about-section {
   padding-bottom: 90px; }
   .about-section .about-text {
@@ -1047,7 +1062,8 @@ select:visited {
       position: relative;
       display: inline-block; }
   .about-section .about-img {
-    margin: 0px -10px; }
+    margin: 0px -10px;
+}
     .about-section .about-img .abt-img-set {
       float: left;
       margin: 0px 10px;
@@ -2881,7 +2897,19 @@ z-index: 158;}
   .el-mobile_menu_content .m-brand-logo {
     width: 160px;
     margin: 0 auto;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+  }
+
+  .brand-logo a{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .color-logo{
+    color: #eda213;
+  }
+
+
 
 .el-mobile_menu_wrap.mobile_menu_on .el-mobile_menu_content {
   right: 0px;
