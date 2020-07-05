@@ -3045,12 +3045,18 @@ select:visited {
   margin: 100px 0 150px;
 }
 
-.formation{
+.formation, .payement{
   margin: 40px 0 150px;
 }
 
 .card-formulaire{
   width: 58%;
+  margin: 0 auto;
+  min-height: 300px;
+}
+
+.card-payement{
+  width: 72%;
   margin: 0 auto;
   min-height: 300px;
 }
