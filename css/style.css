@@ -719,7 +719,7 @@ select:visited {
       color: #fff;
       font-weight: 400; }
       .site-main-menu .main_navigation{
-        margin-left: 200px;
+        margin-left: 80px;
       }
     .header_style_two .site-main-menu .dropdown-menu li a {
       color: #222 !important; }
@@ -791,7 +791,7 @@ select:visited {
   transition: .3s all ease-in-out; }
 
 .main_header.header_style_one.stickymenu-on {
-  top: -58px;
+  top: -2px;
   z-index: 999;
   width: 100%;
   -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
@@ -1474,14 +1474,24 @@ select:visited {
 /*---------------------------------------------------- */
 /*advantage area*/
 /*----------------------------------------------------*/
+.advantage-text p{
+  margin-bottom: 0;
+}
+
+
+
+
 .advantage-section {
   padding: 110px 0px; }
   .advantage-section .section-title-middle {
     margin: 0 auto;
     max-width: 610px;
     padding-bottom: 50px; }
+    .advantage-img{
+      height: 100px;
+    }
   .advantage-section .advantage-img-text .advantage-text {
-    padding: 45px 40px;
+    padding: 15px 10px;
     -webkit-box-shadow: 0px 9px 40px 0px rgba(193, 193, 193, 0.5);
     box-shadow: 0px 9px 40px 0px rgba(193, 193, 193, 0.5); }
     .advantage-section .advantage-img-text .advantage-text h3 {
@@ -1500,11 +1510,11 @@ select:visited {
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
   .advantage-section .advantage-content .col-lg-3:nth-child(2) .advantage-img-text .advantage-text {
-    background-color: #eda213; }
+    background-color: white; }
     .advantage-section .advantage-content .col-lg-3:nth-child(2) .advantage-img-text .advantage-text h3 {
       color: #fff; }
   .advantage-section .advantage-content .col-lg-3:nth-child(3) .advantage-img-text .advantage-text {
-    background-color: #0fc5d3; }
+    background-color: white; }
     .advantage-section .advantage-content .col-lg-3:nth-child(3) .advantage-img-text .advantage-text h3 {
       color: #fff; }
 
@@ -1573,7 +1583,7 @@ select:visited {
   .project-section .section-title-left {
     max-width: 330px; }
   .project-section .grid-item-width {
-    width: 33.33%; }
+    width: 100%; }
   .project-section .grid-item-big {
     width: 66.67%; }
   .project-section .grid-sizer {
@@ -1659,13 +1669,14 @@ select:visited {
     line-height: 55px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 45px; }
+}
     .project-section .project-more-btn a {
       width: 100%;
       color: #fff;
       display: block;
       font-size: 14px;
-      font-weight: 700; }
+      font-weight: 700; 
+    color: white;}
       .project-section .project-more-btn a:hover {
         background-color: #0071b4; }
 
@@ -1813,7 +1824,9 @@ select:visited {
   max-width: 810px;
   position: relative;
   padding: 40px 100px;
-  background-color: #eda213; }
+  background-color: #eda213;
+  overflow: visible; 
+z-index: 158;}
   .mission-area .mission-text .section-title-left .title-tag {
     color: #fff; }
   .mission-area .mission-text .section-title-left h2 {
