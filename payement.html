@@ -187,8 +187,8 @@
         <div class="container">
             <div class="card-payement">
                 <div class="card-formulaire_title text-center">
-                    <h2>Inscription</h2>
-                    <h4>Inscrivez-vous et commencez à apprendre !</h4>
+                    <h2>Payer</h2>
+                    <h4>Details de facturation</h4>
                 </div>
                <div class="row">
                 <div class="col-4">
@@ -218,78 +218,56 @@
                    </div>
                    <div class="col-8">
                         <form>
-                        <div class="form-row mb-3">
-                            <div class="form-group col-md-6">
-                            <label for="nom">Nom</label>
-                            <input type="text" class="form-control" id="nom" >
-                            </div>
-                            <div class="form-group col-md-6">
-                            <label for="prenom">Prenoms</label>
-                            <input type="text" class="form-control" id="prenom" >
-                            </div>
-                        </div>
-                        <div class="form-row mb-3">
-                            <div class="form-group col-md-4">
-                                <label for="date">Date de Naissance</label>
-                                <input type="date" class="form-control" id="date">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="lieu">Lieu de naissance</label>
-                                <input type="text" class="form-control" id="lieu" >
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="lieu">sexe</label>
-                                <select id="sexe" class="form-control">
-                                    <option selected>Masculin</option>
-                                    <option>Feminin</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-row mb-3">
-                            <div class="form-group col-md-6">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" >
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="numero">Numero</label>
-                                <input type="number" class="form-control" id="numero" >
-                            </div>
-                            </div>
-                            <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <label for="adress">Lieu de residence</label>
-                                <input type="text" class="form-control" id="adress" >
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="numero">Niveau d'etude</label>
-                                <input type="text" class="form-control" id="niveau">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="school">Niveau d'etude</label>
-                                <input type="text" class="form-control" id="school" >
-                                </div>
-                            </div>
-                            <div class="form-row mb-3">
-                            <div class="form-group col-md-6">
-                                <label for="cni">Numero de la pièce</label>
-                                <input type="text" class="form-control" id="cni" >
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="datedepot">Date de depot de dossier</label>
-                                <input type="date" class="form-control" id="datedepot" >
-                            </div>
-                            </div>
-                        <div class="form-row mb-3">
-                            <div class="form-group col-md-6">
-                                <label for="password">Mot de passe</label>
-                                <input type="password" class="form-control" id="password" >
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="password">Confirmer mot de passe</label>
-                                <input type="password" class="form-control" id="password">   
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-color ">Soumettre</button>
+							<div class="form-row mb-3">
+								<div class="form-group col-md-6">
+									<label for="numcompte">Numero de Compte</label>
+									<input type="text" class="form-control" id="numcompte" >
+								</div>
+								<div class="form-group col-md-6">
+									<label for="moyen">Mode de paiement</label>
+									<select id="moyen" class="form-control">
+										<option selected>Orange Money</option>
+										<option>MTN Money</option>
+										<option>Moov Money</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-row mb-3">
+								<div class="form-group col-md-6">
+									<label for="num">Numero</label>
+									<input type="number" class="form-control" id="num">
+								</div>
+								<div class="form-group col-md-6">
+									<label for="email">Email</label>
+									<input type="text" class="form-control" id="email" >
+								</div>
+							</div>
+							<h5>Votre commande</h5>
+							<table class="table">
+								<thead>
+								  <tr>
+									<th scope="col">Produit</th>
+									<th scope="col">Sous-total</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td>Formation html&css</td>
+									<td style="font-weight: bold;">1.0000 fcfa</td>
+								  </tr>
+								  <tr>
+
+									<td>Sous-total</td>
+									<td style="font-weight: bold;">1.0000 fcfa</td>
+								  </tr>
+								  <tr>
+									<td>Total</td>
+									<td style="font-weight: bold;">10.000 fcfa</td>
+								  </tr>
+								</tbody>
+							  </table>
+								
+							<button type="submit" class="btn btn-primary btn-color ">Terminer le paiement</button>
                         </form>
                    </div>
                </div>
