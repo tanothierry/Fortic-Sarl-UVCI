@@ -2698,8 +2698,8 @@ select:visited {
 
 .footer-contact-info {
   padding-bottom: 75px;
-  margin-bottom: 70px;
-  border-bottom: 2px solid #37434b; }
+ /*  margin-bottom: 70px;
+  border-bottom: 2px solid #37434b; */ }
   .footer-contact-info .footer-icon-text-contact-info {
     margin-left: 60px;
     position: relative; }
@@ -3041,8 +3041,12 @@ select:visited {
 }
 
 
-.formulaire, .offres{
+.formulaire, .offres, .formation{
   margin: 100px 0 150px;
+}
+
+.formation{
+  margin: 40px 0 150px;
 }
 
 .card-formulaire{
@@ -3096,6 +3100,90 @@ label{
   border: 0;
 }
 
+.btn-second{
+  border-radius: 0;
+  background-color: rgb(7, 131, 33);
+  border: 0;
+}
+
+.btn-second:hover{
+  border-radius: 0;
+  background-color: rgb(7, 131, 33);
+  border: 0;
+}
+
+.card-formation{
+  min-height: 250px;
+  border: 1px solid #cecece;
+  box-shadow: 0px 0px 13px -8px rgba(0,0,0,0.75);
+}
+
+
+.card-formation_illustration{
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.card-formation_illustration img{
+  object-fit: cover;
+  height: 150px;
+}
+
+.divider-color{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #00406863;
+}
+
+.card-formation_description{
+  padding: 10px;
+}
+
+.card-formation_description h6{
+  font-weight: bolder;
+  margin-bottom: -1px;
+}
+
+.card-formation_description span{
+  font-size: 12px;
+}
+
+.formation-title{
+  margin-bottom: 30px;
+}
+
+.star p{
+  font-weight: bolder;
+  margin-right: 10px;
+  font-size: 18px;
+  color: orangered;
+  margin-bottom: 0;
+}
+
+.etoile{
+  width: 18px;
+  height: 18px;
+  padding-right: 2px;
+}
+
+.price{
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  z-index: 11;
+  background-color: rgb(177, 12, 12);
+  color: white;
+  padding: 0 5px;
+}
+
+.price p{
+  margin-bottom: 0;
+}
 
 /* ************************************************************/
 
@@ -3340,8 +3428,8 @@ label{
     top: 0;
     margin-bottom: 30px; }
   .footer-contact-info {
-    padding-bottom: 20px;
-    margin-bottom: 40px; }
+    /* padding-bottom: 20px; */
+   /*  margin-bottom: 40px; */ }
   .blog-section .blog-left-content .blog-text-details .b-read-more-btn {
     height: 40px;
     width: 150px;
