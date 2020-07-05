@@ -3041,7 +3041,7 @@ select:visited {
 }
 
 
-.formulaire{
+.formulaire, .offres{
   margin: 100px 0 150px;
 }
 
@@ -3051,8 +3051,14 @@ select:visited {
   min-height: 300px;
 }
 
+.card-connexion{
+  width: 35%;
+  margin: 0 auto;
+  min-height: 300px;
+}
+ 
 .card-formulaire_title{
-  margin-bottom: 60px;
+  margin-bottom: 45px;
 }
 
 .card-formulaire_title h2{
@@ -3064,6 +3070,15 @@ select:visited {
   font-size: 17px;
 }
 
+.card-connexion_info{
+  clear: both;
+}
+
+.color-text, .color-text:hover{
+  color: #005a90;
+  font-weight: 600;
+}
+
 label{
 
   font-weight: 600;
@@ -3073,7 +3088,6 @@ label{
   border-radius: 0;
   background-color: rgb(177, 12, 12);
   border: 0;
-  float: right;
 }
 
 .btn-color:hover{
