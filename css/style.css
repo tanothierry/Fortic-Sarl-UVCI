@@ -3100,7 +3100,29 @@ z-index: 158;}
   background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.719)), url('../img/second-slide.jpg');
   background-size: cover;
   width: 100%;
+  position: relative;
 }
+
+.second-slide_title{
+justify-content: center;
+align-items: center;
+height: 280px;
+}
+
+.second-slide_title .info{
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  }
+
+  .second-slide_title .info h3{
+    color: #eda213;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 32px;
+    }
+
+
 
 
 .formulaire, .offres, .formation{
