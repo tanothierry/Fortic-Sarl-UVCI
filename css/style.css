@@ -487,10 +487,9 @@ select:visited {
   .section-title-left .title-tag img {
     margin-right: 12px; }
 
-.section-title-left h2 {
-  color: #222222;
-  font-size: 42px;
-  font-weight: 700;
+.section-title-left h6 {
+  color: #ffffff;
+  font-weight: 400;
   line-height: 1.238;
   padding: 12px 0px 15px; }
 
@@ -1910,7 +1909,7 @@ z-index: 158;}
         padding-bottom: 20px; }
       .testimonial-section .testimonial-text-slide .testimonial-slide-text p {
         color: #555555;
-        font-size: 18px; }
+        font-size: 14px; }
       .testimonial-section .testimonial-text-slide .testimonial-slide-text .testimonial-img-rate {
         margin-top: 30px; }
         .testimonial-section .testimonial-text-slide .testimonial-slide-text .testimonial-img-rate .testimonial-pic {
@@ -3129,6 +3128,10 @@ height: 280px;
   margin: 100px 0 150px;
 }
 
+.offre{
+  margin-bottom: 100px;
+}
+
 .formation, .payement{
   margin: 40px 0 150px;
 }
@@ -3445,7 +3448,7 @@ label{
   .site-info-content {
     top: 0;
     margin-bottom: 40px; }
-  .section-title-left h2 {
+  .section-title-left h6 {
     font-size: 36px; }
   .advantage-img-text {
     margin: 0 auto;
@@ -3489,8 +3492,9 @@ label{
 @media screen and (max-width: 480px) {
   .site-info-icon-text {
     width: 100%; }
-  .section-title-left h2 {
-    font-size: 26px; }
+  .section-title-left h6 {
+    font-size: 26px; 
+  }
   .section-title-middle h2 {
     font-size: 26px; }
   .features-icon-text {
